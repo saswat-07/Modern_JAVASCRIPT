@@ -16,3 +16,12 @@ input, textarea {
     flex-wrap: wrap;
     /* justify-content: space-around; */
 }
+
+.note-card {
+    border: 1px solid blue;
+    border-radius: 5px;
+  }
+#delete-button {
+    border-radius: 30px;
+
+  }

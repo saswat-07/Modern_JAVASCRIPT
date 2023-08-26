@@ -85,10 +85,8 @@ function fetchNotesFromServer() {
                         noteTitle.textContent = `${post.title}`;
                         cardHeader.appendChild(noteTitle);
                         
-
                         let noteBody = document.createElement('div');
                         noteBody.classList.add('card-body');
-
                         
                         let noteId = document.createElement('p');
                         noteId.classList.add('card-text');
@@ -109,16 +107,23 @@ function fetchNotesFromServer() {
                         deleteButton.style.border = 'none';
                         deleteButton.style.padding = '8px 16px';
                         deleteButton.style.cursor = 'pointer';
+
+                        deleteButton.addEventListener('click', () => {
+                          // Call the deleteNote function and pass the deleteButton and noteId as arguments
+                          deleteNote(deleteButton, `${post.id}`);
+                        });
+
+                        
                         noteBody.appendChild(deleteButton);
                       
                         noteDiv.appendChild(cardHeader);
                         noteDiv.appendChild(noteBody);
 
                         notesContainer.appendChild(noteDiv);
-                        
-                      
-  
-              })         
+
+                          
+              })  
+
     })
     .catch(()=>{
       console.log("Failure!!");
@@ -126,12 +131,34 @@ function fetchNotesFromServer() {
 }
 
 //task-3 : delete note
-function deleteNote() {
+function deleteNote(button, noteId) {
+    // Send a DELETE request to the server with the ID of the note
+    axios.delete(`${todoURL}/${noteId}`)
+    .then(response => {
+      console.log(response.data);
+      // If the request was successful, remove the note from the page
+      button.closest('.note-card').remove();
+      alert('Note deleted Successfully');
+    })
+    .catch(error => {
+      alert('An error occurred while deleting the note');
+    });
     
 }
  
 //task-4 : toggle note view
 function toggleView() {
+  const noteContainer = document.getElementById('note-container');
+
+  if (view === "grid") {
+    noteContainer.style.display = "flex";
+    //noteContainer.style.flexDirection = "column";
+    view = "list";
+  } 
+  else {
+    noteContainer.style.display = "grid";
+    view = "grid";
+  }
     
 }
 
@@ -145,34 +172,3 @@ module.exports = {
     fetchNotesFromServer
 }
 
-//let notes = [];
-
-// function fetchNotesFromServer(todoURL) {
-//   return axios.get(todoURL)
-//     .then(response => {
-//       notes = response.data;
-//       return axios.get(`${todoURL}/${response.data.noteId}`);
-//     })
-//     .catch(error => {
-//       alert(`An error occurred while fetching notes: ${error}`);
-//     });
-// }
-
-// function deleteNote(id) {
-//   axios.delete(`/api/notes/${id}`)
-//     .then(response => {
-//         console.log(response.data);
-
-//       let noteIndex = notes.findIndex(note => note.id === id);
-//       if (noteIndex !== -1) {
-//         notes.splice(noteIndex, 1);
-//         alert('Note deleted successfully');
-//         displayNotes();
-//       }
-//     })
-//     .catch(error => {
-//       alert(`An error occurred while deleting the note: ${error}`);
-//     });
-// }
-
-//window.addEventListener('load', displayNotes);
