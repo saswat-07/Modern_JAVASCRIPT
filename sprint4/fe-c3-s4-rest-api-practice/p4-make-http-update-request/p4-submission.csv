@@ -1,0 +1,140 @@
+"HTTP Request		",To update movie for id 514,To update movie for id 500
+"URL		",http://localhost:3000/movies/514, http://localhost:3000/movies/500
+"METHOD	" ,PUT,
+"Request Body 		", {
+        "id": 514,
+        "movieTitle": "Father of the Bride",
+        "yearOfRelease": 2022,
+        "director": "Gary Alazraki",
+        "actor-1": {
+            "actorName": "Andy Garcia",
+            "onScreenName": "Billy Herrera"
+        },
+        "actor-2": {
+            "actorName": "Gloria Estefan",
+            "onScreenName": "Ingrid Herrera"
+        },
+        "actor-3": {
+            "actorName": "Adria Arjona",
+            "onScreenName": "Sofia Herrera"
+        },
+        "rating": 5.9,
+        "genre": "Comedy",
+        "isOnOtt": true,
+        "Ott": "Netflix"
+    },
+    {
+        "id": 500,
+        "movieTitle": "Top Gun",
+        "yearOfRelease": 1986,
+        "director": "Tony Scott",
+        "actor-1": {
+            "actorName": "Tom Cruise",
+            "onScreenName": "Maverick"
+        },
+        "actor-2": {
+            "actorName": "Tim Robbins",
+            "onScreenName": "Merlin"
+        },
+        "actor-3": {
+            "actorName": "Kelly McGillis",
+            "onScreenName": "Charlie"
+        },
+        "rating": 6.9,
+        "genre": "Action",
+        "isOnOtt": true,
+        "Ott": "Prime Video"
+    }
+"Content Type	",application/json, application/json
+Body ->,{
+        "id": 514,
+        "movieTitle": "Father of the Bride",
+        "yearOfRelease": 2022,
+        "director": "Gary Alazraki",
+        "actor-1": {
+            "actorName": "Andy Garcia",
+            "onScreenName": "Billy Herrera"
+        },
+        "actor-2": {
+            "actorName": "Gloria Estefan",
+            "onScreenName": "Ingrid Herrera"
+        },
+        "actor-3": {
+            "actorName": "Adria Arjona",
+            "onScreenName": "Sofia Herrera"
+        },
+        "rating": 5.9,
+        "genre": "Comedy",
+        "isOnOtt": true,
+        "Ott": "Netflix"
+    },
+    {
+        "id": 500,
+        "movieTitle": "Top Gun",
+        "yearOfRelease": 1986,
+        "director": "Tony Scott",
+        "actor-1": {
+            "actorName": "Tom Cruise",
+            "onScreenName": "Maverick"
+        },
+        "actor-2": {
+            "actorName": "Tim Robbins",
+            "onScreenName": "Merlin"
+        },
+        "actor-3": {
+            "actorName": "Kelly McGillis",
+            "onScreenName": "Charlie"
+        },
+        "rating": 6.9,
+        "genre": "Action",
+        "isOnOtt": true,
+        "Ott": "Prime Video"
+    }
+"HTTP Response		",{
+        "id": 514,
+        "movieTitle": "Father of the Bride",
+        "yearOfRelease": 2022,
+        "director": "Gary Alazraki",
+        "actor-1": {
+            "actorName": "Andy Garcia",
+            "onScreenName": "Billy Herrera"
+        },
+        "actor-2": {
+            "actorName": "Gloria Estefan",
+            "onScreenName": "Ingrid Herrera"
+        },
+        "actor-3": {
+            "actorName": "Adria Arjona",
+            "onScreenName": "Sofia Herrera"
+        },
+        "rating": 5.9,
+        "genre": "Comedy",
+        "isOnOtt": true,
+        "Ott": "Netflix"
+    },
+    {}
+"Status Code		",200,404
+"Status Message	"    ,OK,Not Found
+Body-> ,{
+        "id": 514,
+        "movieTitle": "Father of the Bride",
+        "yearOfRelease": 2022,
+        "director": "Gary Alazraki",
+        "actor-1": {
+            "actorName": "Andy Garcia",
+            "onScreenName": "Billy Herrera"
+        },
+        "actor-2": {
+            "actorName": "Gloria Estefan",
+            "onScreenName": "Ingrid Herrera"
+        },
+        "actor-3": {
+            "actorName": "Adria Arjona",
+            "onScreenName": "Sofia Herrera"
+        },
+        "rating": 5.9,
+        "genre": "Comedy",
+        "isOnOtt": true,
+        "Ott": "Netflix"
+    },
+{}

@@ -1,0 +1,112 @@
+[
+    {
+        "deliveredBy":"Charles Garcia",
+        "orderNumber":234324,
+        "customerName":"Michael Williams",
+        "phoneNumbers":["+12052349876","+12052349876"],
+        "customerAddress":{
+            "streetNo":"501m",
+            "streetName":"Hopton Street",
+            "city":"Orlando",
+            "state":"Florida"
+        },
+            "tipAmount":10,
+            "customerRating":4.5,
+            "outletRating":3,
+            "averageRating":3.75
+            },{
+                "deliveredBy":"Andrew Clark",
+                "orderNumber":897655,
+                "customerName":"George Wilson",
+                "phoneNumbers":["+12652349712","+12752344376"],
+                "customerAddress":
+                {
+                    "streetNo":"281d",
+                    "streetName":"Sea View",
+                    "city":"South Austin",
+                    "state":"Texas"
+                },
+                    "tipAmount":5,
+                    "customerRating":4,
+                    "outletRating":4.5,
+                    "averageRating":4.25
+                    },{
+                        "deliveredBy":"Andrew Clark",
+                        "orderNumber":1560986,
+                        "customerName":"Ella Rodriguez",
+                        "phoneNumbers":["+12902346589","+12902300610"],
+                        "customerAddress":{
+                            "streetNo":"892g",
+                            "streetName":"Parkside Park",
+                            "city":"Louiseville",
+                            "state":"Kentucky"
+                            },
+                            "tipAmount":0,
+                            "customerRating":3,
+                            "outletRating":4,
+                            "averageRating":3.5
+                            },{
+                                "deliveredBy":"Nicholas Taylor",
+                                "orderNumber":2224317,
+                                "customerName":"Olivia Davis",
+                                "phoneNumbers":["+12452342200","+12452277881"],
+                                "customerAddress":
+                                {
+                                    "streetNo":"108a",
+                                    "streetName":"Buller Hawthorns",
+                                    "city":"Trenton",
+                                    "state":"New Jersey"
+                                    },
+                                    "tipAmount":5,
+                                    "customerRating":5,
+                                    "outletRating":4,
+                                    "averageRating":4.5
+                                    },{
+                                        "deliveredBy":"Charles Garcia",
+                                        "orderNumber":2887648,
+                                        "customerName":"Lucy Thomas",
+                                        "phoneNumbers":["+13152119733","+13175264437"],
+                                        "customerAddress":
+                                        {
+                                            "streetNo":"557a",
+                                            "streetName":"Cygnet Court",
+                                            "city":"Dover",
+                                            "state":"Delaware"
+                                            },
+                                            "tipAmount":20,
+                                            "customerRating":1,
+                                            "outletRating":2,
+                                            "averageRating":1.5
+                                            },{
+                                                "deliveredBy":"Charles Garcia",
+                                                "orderNumber":234541,
+                                                "customerName":"Richard Mia",
+                                                "phoneNumbers":["+12052333876","+12052343176"],
+                                                "customerAddress":
+                                                {"streetNo":"501m",
+                                                "streetName":"Hopton Street",
+                                                "city":"Orlando",
+                                                "state":"Florida"
+                                                },
+                                                "tipAmount":10,
+                                                "customerRating":4.5,
+                                                "outletRating":3,
+                                                "averageRating":3.75
+                                                },
+                                                {
+                                                    "deliveredBy":"Andrew Clark",
+                                                    "orderNumber":897690,
+                                                    "customerName":"Eric Claire",
+                                                    "phoneNumbers":["+12652387712","+12752322396"],
+                                                    "customerAddress":
+                                                    {"streetNo":"292f",
+                                                    "streetName":"North View",
+                                                    "city":"South Austin",
+                                                    "state":"Texas"
+                                                    },
+                                                    "tipAmount":10,
+                                                    "customerRating":4,
+                                                    "outletRating":4.5,
+                                                    "averageRating":4.25
+                                                    }
+]

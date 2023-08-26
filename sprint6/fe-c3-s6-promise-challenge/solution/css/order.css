@@ -1,0 +1,54 @@
+/* Write style sheet here */
+
+body{
+    margin:0;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  #order-form{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid navy;
+    width: 70vw;
+    box-shadow: 0px 2px 7px orange;
+  }
+  
+  div{
+    /* margin: 5px auto; */
+    padding: 10px;
+  }
+  
+  
+  #order-now{
+    background-color: navy;
+    border-radius: 2px;
+    border: 1px solid orange;
+    color: cyan;
+    padding: 5px;
+  }
+  
+  textarea{
+    margin-top:15px;
+    width: 60%;
+  }
+  
+   #add-order 
+   {
+    background-color: rgb(227, 224, 224); /* Replace #f00 with your desired background color */
+  border-radius: 50%;
+  border: 1px solid black;
+   }
+  
+  
+  
+  
+  
+  
+    
+  

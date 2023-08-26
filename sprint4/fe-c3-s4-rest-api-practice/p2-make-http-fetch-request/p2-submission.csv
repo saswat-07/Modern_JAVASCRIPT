@@ -1,0 +1,354 @@
+HTTP Request,For All Movies,For Movie By Id `502`,For Movie with Id `600`,For Movie By Title `365 Days`,For Movie By Genre `Action`,For Movie By Genre `Action`  and Year of Release `2022`
+URL ->,http://localhost:3000/movies, http://localhost:3000/movies/502, http://localhost:3000/movies/600, http://localhost:3000/movies?movieTitle=365%20Days, http://localhost:3000/movies?genre=Action, http://localhost:3000/movies?genre=Action&yearOfRelease=2022
+METHOD,,,,,,GET,,,,,,
+HTTP Response ,,,,,,
+Status Code ,200,200,400,200,200,200
+Status Message ,OK,OK,Not Found,OK,OK,OK
+Body-> ,[
+    {
+        "id": 501,
+        "movieTitle": "Top Gun: Maverick",
+        "yearOfRelease": 2022,
+        "director": "Joseph Kosinski",
+        "actor-1": {
+            "actorName": "Tom Cruise",
+            "onScreenName": "Capt. Pete"
+        },
+        "actor-2": {
+            "actorName": "Jennifer Connelly",
+            "onScreenName": "Penny Benjamin"
+        },
+        "actor-3": {
+            "actorName": "Miles Teller",
+            "onScreenName": "Lt. Bradley"
+        },
+        "rating": 8.6,
+        "genre": "Action",
+        "isOnOTT": false
+    },
+    {
+        "id": 502,
+        "movieTitle": "Spider-Man: No Way Home",
+        "yearOfRelease": 2021,
+        "director": "Jon Watts",
+        "actor-1": {
+            "actorName": "Tom Holland",
+            "onScreenName": "Peter Parker"
+        },
+        "actor-2": {
+            "actorName": "Zendaya",
+            "onScreenName": "MJ"
+        },
+        "rating": 8.3,
+        "genre": "Action",
+        "isOnOTT": true,
+        "Ott": "Netflix"
+    },
+    {
+        "id": 503,
+        "movieTitle": "Death on the Nile",
+        "yearOfRelease": 2022,
+        "director": "Kenneth Branagh",
+        "actor-1": {
+            "actorName": "Tom Bateman",
+            "onScreenName": "Bouc"
+        },
+        "actor-2": {
+            "actorName": "Annette Bening",
+            "onScreenName": "Euphemia Bouc"
+        },
+        "actor-3": {
+            "actorName": "Kenneth Branagh",
+            "onScreenName": "Hercule Poirot"
+        },
+        "rating": 6.3,
+        "genre": "Mystery",
+        "isOnOtt": false,
+        "Ott": null
+    },
+    {
+        "id": 504,
+        "movieTitle": "Jurassic World",
+        "yearOfRelease": 2015,
+        "director": "Colin Trevorrow",
+        "actor-1": {
+            "actorName": "Chris Pratt",
+            "onScreenName": "Owen Grady"
+        },
+        "actor-2": {
+            "actorName": "Bryce Dallas Howard",
+            "onScreenName": "Claire Dearing"
+        },
+        "rating": 6.9,
+        "genre": "Sci-Fi",
+        "isOnOtt": true,
+        "Ott": "Prime Video"
+    },
+    {
+        "id": 505,
+        "movieTitle": "Doctor Strange",
+        "yearOfRelease": 2016,
+        "director": "Scott Derrickson",
+        "actor-1": {
+            "actorName": "Benedict Cumberbatch",
+            "onScreenName": "Dr. Stephen Strange"
+        },
+        "actor-2": {
+            "actorName": "Chiwetel Ejiofor",
+            "onScreenName": "Mordo"
+        },
+        "actor-3": {
+            "actorName": "Rachel McAdams",
+            "onScreenName": "Dr. Christine Palmer"
+        },
+        "rating": 7.5,
+        "genre": "Fantasy",
+        "isOnOtt": true,
+        "Ott": "Hotstar"
+    },
+    {
+        "id": 506,
+        "movieTitle": "Whiplash",
+        "yearOfRelease": 2014,
+        "director": "Damien Chazelle",
+        "actor-1": {
+            "actorName": "Miles Teller",
+            "onScreenName": "Andrew"
+        },
+        "actor-2": {
+            "actorName": "J.K. Simmons",
+            "onScreenName": "Fletcher"
+        },
+        "actor-3": {
+            "actorName": "Melissa Benoist",
+            "onScreenName": "Nicole"
+        },
+        "rating": 8.5,
+        "genre": "Drama",
+        "isOnOtt": true,
+        "Ott": "Prime Video"
+    },
+    {
+        "id": 507,
+        "movieTitle": "The Wolf of Wall Street",
+        "yearOfRelease": 2013,
+        "director": "Martin Scorsese",
+        "actor-1": {
+            "actorName": "Leonardo DiCaprio",
+            "onScreenName": "Jordan Belfort"
+        },
+        "actor-2": {
+            "actorName": "Jonah Hill",
+            "onScreenName": "Donnie Azoff"
+        },
+        "actor-3": {
+            "actorName": "Margot Robbie",
+            "onScreenName": "Naomi Lapaglia"
+        },
+        "rating": 8.2,
+        "genre": "Biography",
+        "isOnOtt": true,
+        "Ott": "Prime Video"
+    },
+    {
+        "id": 508,
+        "movieTitle": "The Wolf of Wall Street",
+        "yearOfRelease": 2013,
+        "director": "Martin Scorsese",
+        "actor-1": {
+            "actorName": "Leonardo DiCaprio",
+            "onScreenName": "Jordan Belfort"
+        },
+        "actor-2": {
+            "actorName": "Jonah Hill",
+            "onScreenName": "Donnie Azoff"
+        },
+        "actor-3": {
+            "actorName": "Margot Robbie",
+            "onScreenName": "Naomi Lapaglia"
+        },
+        "rating": 8.2,
+        "genre": "Biography",
+        "isOnOtt": true,
+        "Ott": "Prime Video"
+    },
+    {
+        "id": 509,
+        "movieTitle": "The Lost City",
+        "yearOfRelease": 2022,
+        "director": "Aaron Nee",
+        "actor-1": {
+            "actorName": "Sandra Bullock",
+            "onScreenName": "Loretta Sage, Angela"
+        },
+        "actor-2": {
+            "actorName": "Channing Tatum",
+            "onScreenName": "Alan, Dash"
+        },
+        "actor-3": {
+            "actorName": "Daniel Radcliffe",
+            "onScreenName": "Abigail Fairfax"
+        },
+        "rating": 6.2,
+        "genre": "Comedy",
+        "isOnOtt": true,
+        "Ott": "Prime Video"
+    },
+    {
+        "id": 510,
+        "movieTitle": "365 Days",
+        "yearOfRelease": 2020,
+        "director": "Barbara Bialowas",
+        "actor-1": {
+            "actorName": "Anna-Maria Sieklucka",
+            "onScreenName": "Laura Biel"
+        },
+        "actor-2": {
+            "actorName": "Michele Morrone",
+            "onScreenName": "Massimo Torricelli"
+        },
+        "rating": 3.3,
+        "genre": "Romance",
+        "isOnOtt": true,
+        "Ott": "Netflix"
+    },
+    {
+        "id": 511,
+        "movieTitle": "Titanic",
+        "yearOfRelease": 1997,
+        "director": "James Cameron",
+        "actor-1": {
+            "actorName": "Leonardo DiCaprio",
+            "onScreenName": "Jack Dawson"
+        },
+        "actor-2": {
+            "actorName": "Kate Winslet",
+            "onScreenName": "Rose Dewitt Bukater"
+        },
+        "rating": 7.9,
+        "genre": "Romance",
+        "isOnOtt": true,
+        "Ott": "Hotstar"
+    },
+    {
+        "id": 512,
+        "movieTitle": "Ghostbusters: Afterlife",
+        "yearOfRelease": 2021,
+        "director": "Jason Reitman",
+        "actor-1": {
+            "actorName": "Carrie Coon",
+            "onScreenName": "Callie"
+        },
+        "actor-2": {
+            "actorName": "Paul Rudd",
+            "onScreenName": "Grooberson"
+        },
+        "rating": 7.1,
+        "genre": "Adventure",
+        "isOnOtt": true,
+        "Ott": "Netflix"
+    }
+],
+{
+    "id": 502,
+    "movieTitle": "Spider-Man: No Way Home",
+    "yearOfRelease": 2021,
+    "director": "Jon Watts",
+    "actor-1": {
+        "actorName": "Tom Holland",
+        "onScreenName": "Peter Parker"
+    },
+    "actor-2": {
+        "actorName": "Zendaya",
+        "onScreenName": "MJ"
+    },
+    "rating": 8.3,
+    "genre": "Action",
+    "isOnOTT": true,
+    "Ott": "Netflix"
+},
+{},
+[
+    {
+        "id": 510,
+        "movieTitle": "365 Days",
+        "yearOfRelease": 2020,
+        "director": "Barbara Bialowas",
+        "actor-1": {
+            "actorName": "Anna-Maria Sieklucka",
+            "onScreenName": "Laura Biel"
+        },
+        "actor-2": {
+            "actorName": "Michele Morrone",
+            "onScreenName": "Massimo Torricelli"
+        },
+        "rating": 3.3,
+        "genre": "Romance",
+        "isOnOtt": true,
+        "Ott": "Netflix"
+    }
+],
+[
+    {
+        "id": 501,
+        "movieTitle": "Top Gun: Maverick",
+        "yearOfRelease": 2022,
+        "director": "Joseph Kosinski",
+        "actor-1": {
+            "actorName": "Tom Cruise",
+            "onScreenName": "Capt. Pete"
+        },
+        "actor-2": {
+            "actorName": "Jennifer Connelly",
+            "onScreenName": "Penny Benjamin"
+        },
+        "actor-3": {
+            "actorName": "Miles Teller",
+            "onScreenName": "Lt. Bradley"
+        },
+        "rating": 8.6,
+        "genre": "Action",
+        "isOnOTT": false
+    },
+    {
+        "id": 502,
+        "movieTitle": "Spider-Man: No Way Home",
+        "yearOfRelease": 2021,
+        "director": "Jon Watts",
+        "actor-1": {
+            "actorName": "Tom Holland",
+            "onScreenName": "Peter Parker"
+        },
+        "actor-2": {
+            "actorName": "Zendaya",
+            "onScreenName": "MJ"
+        },
+        "rating": 8.3,
+        "genre": "Action",
+        "isOnOTT": true,
+        "Ott": "Netflix"
+    }
+],
+[
+    {
+        "id": 501,
+        "movieTitle": "Top Gun: Maverick",
+        "yearOfRelease": 2022,
+        "director": "Joseph Kosinski",
+        "actor-1": {
+            "actorName": "Tom Cruise",
+            "onScreenName": "Capt. Pete"
+        },
+        "actor-2": {
+            "actorName": "Jennifer Connelly",
+            "onScreenName": "Penny Benjamin"
+        },
+        "actor-3": {
+            "actorName": "Miles Teller",
+            "onScreenName": "Lt. Bradley"
+        },
+        "rating": 8.6,
+        "genre": "Action",
+        "isOnOTT": false
+    }
+]

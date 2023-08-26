@@ -1,0 +1,20 @@
+{
+  "name": "practice-exercises",
+  "version": "1.0.0",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.27.0",
+    "mocha": "^9.2.2"
+  },
+  "description": "Veggie Pizza is a pizza delivery outlet that became popular for its custom-made vegetarian pizzas. A customer can order pizzas and other items by calling the outlet. The outlet delivers the order to the address specified by each customer.​\r ​\r Write a JavaScript program to calculate the final bill amount the customer should pay for the order placed.",
+  "main": "veggie-pizza-solution.js"
+}

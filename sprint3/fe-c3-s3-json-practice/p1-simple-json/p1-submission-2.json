@@ -1,0 +1,16 @@
+{
+    
+    "from": "Chicago",
+    "to": "New York",
+    "departure-days": "M-Tu-W-Th",
+    "flight no": "UA2202",
+    "airlines": "United Airlines",
+    "departure-time": "19:46:00",
+    "arrival-time": "22:56:00",
+    "stop overs": null,
+    "isDirect": true,
+    "departure-from": "ORD",
+    "arrival-at": "EWR"
+
+
+}

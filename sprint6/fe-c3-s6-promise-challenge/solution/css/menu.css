@@ -1,0 +1,11 @@
+/* Write style sheet here */
+form{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 10px;
+    /* border-radius: 5px; */
+    /* border: 1px solid navy; */
+    width: 20vw;
+    background-color: rgb(228,245,212);
+}

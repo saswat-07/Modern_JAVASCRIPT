@@ -1,0 +1,20 @@
+{
+  "name": "practice-exercises",
+  "version": "1.0.0",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.27.0",
+    "mocha": "^9.2.2"
+  },
+  "description": "When marks of a subject are given to the students, they are not enough to relate with one another. A student might get 75/100 in a subject, but that only tells his/her marks and not the marks relative to his/her peers. This is where percentiles will help. ​",
+  "main": "percentile-solution.js"
+}

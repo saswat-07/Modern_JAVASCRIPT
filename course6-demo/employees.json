@@ -1,0 +1,28 @@
+{
+  "employees": [
+    {
+      "id": 2,
+      "name": "Bob",
+      "email": "bob32@gmail.com",
+      "fatherName": "Charley"
+    },
+    {
+      "id": 3,
+      "name": "Jai",
+      "email": "jai87@gmail.com",
+      "fatherName": "Shiv"
+    },
+    {
+      "id": 4,
+      "name": "Sritam",
+      "email": "Sri07@gmail.com",
+      "fatherName": "Shivaji"
+    },
+    {
+      "id": 5,
+      "name": "Arun",
+      "email": "arun99@gmail.com",
+      "fatherName": "John"
+    }
+  ]
+}

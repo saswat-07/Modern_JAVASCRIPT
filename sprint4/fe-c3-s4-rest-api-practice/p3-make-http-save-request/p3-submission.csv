@@ -1,0 +1,140 @@
+"HTTP Request		",For Adding new movie with id 514,For Adding new movie with id 503
+"URL		", http://localhost:3000/movies, http://localhost:3000/movies
+"METHOD	" ,POST,
+"Request Body 		", {
+        "id": 514,
+        "movieTitle": "Father of the Bride",
+        "yearOfRelease": 2021,
+        "director": "Gary Alazraki",
+        "actor-1": {
+            "actorName": "Andy Garcia",
+            "onScreenName": "Billy Herrera"
+        },
+        "actor-2": {
+            "actorName": "Gloria Estefan",
+            "onScreenName": "Ingrid Herrera"
+        },
+        "actor-3": {
+            "actorName": "Adria Arjona",
+            "onScreenName": "Sofia Herrera"
+        },
+        "rating": 5.9,
+        "genre": "Adventure",
+        "isOnOtt": false,
+        "Ott": null
+    },
+    {
+        "id": 503,
+        "movieTitle": "Spiderhead",
+        "yearOfRelease": 2022,
+        "director": "Joseph Kosinski",
+        "actor-1": {
+            "actorName": "Chris Hemsworth",
+            "onScreenName": "Abnesti"
+        },
+        "actor-2": {
+            "actorName": "Miles Teller",
+            "onScreenName": "Jeff"
+        },
+        "actor-3": {
+            "actorName": "Jurnee Smollett",
+            "onScreenName": "Lizzy"
+        },
+        "rating": 5.4,
+        "genre": "Action",
+        "isOnOtt": false,
+        "Ott": null
+    }
+"Content Type	", application/json, application/json
+Body ,{
+        "id": 514,
+        "movieTitle": "Father of the Bride",
+        "yearOfRelease": 2021,
+        "director": "Gary Alazraki",
+        "actor-1": {
+            "actorName": "Andy Garcia",
+            "onScreenName": "Billy Herrera"
+        },
+        "actor-2": {
+            "actorName": "Gloria Estefan",
+            "onScreenName": "Ingrid Herrera"
+        },
+        "actor-3": {
+            "actorName": "Adria Arjona",
+            "onScreenName": "Sofia Herrera"
+        },
+        "rating": 5.9,
+        "genre": "Adventure",
+        "isOnOtt": false,
+        "Ott": null
+    },
+    {
+        "id": 503,
+        "movieTitle": "Spiderhead",
+        "yearOfRelease": 2022,
+        "director": "Joseph Kosinski",
+        "actor-1": {
+            "actorName": "Chris Hemsworth",
+            "onScreenName": "Abnesti"
+        },
+        "actor-2": {
+            "actorName": "Miles Teller",
+            "onScreenName": "Jeff"
+        },
+        "actor-3": {
+            "actorName": "Jurnee Smollett",
+            "onScreenName": "Lizzy"
+        },
+        "rating": 5.4,
+        "genre": "Action",
+        "isOnOtt": false,
+        "Ott": null
+    }
+"HTTP Response		",{
+        "id": 514,
+        "movieTitle": "Father of the Bride",
+        "yearOfRelease": 2021,
+        "director": "Gary Alazraki",
+        "actor-1": {
+            "actorName": "Andy Garcia",
+            "onScreenName": "Billy Herrera"
+        },
+        "actor-2": {
+            "actorName": "Gloria Estefan",
+            "onScreenName": "Ingrid Herrera"
+        },
+        "actor-3": {
+            "actorName": "Adria Arjona",
+            "onScreenName": "Sofia Herrera"
+        },
+        "rating": 5.9,
+        "genre": "Adventure",
+        "isOnOtt": false,
+        "Ott": null
+    },
+    Error: Insert failed, duplicate id
+"Status Code		", 201,500
+"Status Message	" ,Created,Internal Server Error
+Body ->,{
+        "id": 514,
+        "movieTitle": "Father of the Bride",
+        "yearOfRelease": 2021,
+        "director": "Gary Alazraki",
+        "actor-1": {
+            "actorName": "Andy Garcia",
+            "onScreenName": "Billy Herrera"
+        },
+        "actor-2": {
+            "actorName": "Gloria Estefan",
+            "onScreenName": "Ingrid Herrera"
+        },
+        "actor-3": {
+            "actorName": "Adria Arjona",
+            "onScreenName": "Sofia Herrera"
+        },
+        "rating": 5.9,
+        "genre": "Adventure",
+        "isOnOtt": false,
+        "Ott": null
+    },
+Error: Insert failed, duplicate id
